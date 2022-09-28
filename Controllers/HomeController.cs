@@ -28,6 +28,11 @@ namespace IntroToJavaScript.Controllers
             return View();
         }
 
+        public IActionResult EventDelegation()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
