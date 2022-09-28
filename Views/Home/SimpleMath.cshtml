@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "Simple Math";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    Enter first number:
+    <input type="number" id="firstNumber" />
+</div>
+<div>
+    Enter second number:
+    <input type="number" id="secondNumber" />
+</div>
+<div>
+    <button id="calculateButton">Get Result</button>
+    Result:
+    <span id="result"></span>
+</div>
+
+@section Scripts {
+    <script src="~/js/homeSimpleMath.js"></script>
+}

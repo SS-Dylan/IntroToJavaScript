@@ -18,6 +18,11 @@ namespace IntroToJavaScript.Controllers
             return View();
         }
 
+        public IActionResult SimpleMath()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
