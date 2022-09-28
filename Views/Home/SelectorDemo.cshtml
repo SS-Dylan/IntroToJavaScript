@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "Selector Demo";
+
+    //Inspect Element => Copy => Copy Selector
+// body > div > main > div > h1
+// #main
+// #basic
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p id="main">Main Paragraph</p>
+    <p id="basic">Basic Paragraph</p>
+    <p id="exclamation">Exclamation Paragraph</p>
+    <button id="btnClickMe">Click Me!</button>
+</div>
+
+@section Scripts {
+    <script src="~/js/homeSelectorDemo.js"></script>
+}

@@ -23,6 +23,11 @@ namespace IntroToJavaScript.Controllers
             return View();
         }
 
+        public IActionResult SelectorDemo()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
